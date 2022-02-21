@@ -1,0 +1,42 @@
+.reset {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #C7C7BB; */
+  background: linear-gradient(45deg,#D5D5D7 50%, #C7C7BB 50% );
+  vertical-align: middle;
+  position: relative;
+}
+.reset__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 30px;
+}
+.reset__textBox {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.reset__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+.reset div {
+  margin-top: 7px;
+}
+
+.bottom_button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: 1%;
+  justify-content: center;
+}

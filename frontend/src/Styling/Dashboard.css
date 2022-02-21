@@ -1,0 +1,36 @@
+.dashboard {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg,#C7C7BB 50%, #EFEDE7 50% );
+  position: relative;
+  vertical-align: middle;
+}
+.dashboard__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* background-color: #dcdcdc; */
+  background-color: clear;
+  padding: 30px;
+
+}
+.dashboard__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+.dashboard div {
+  margin-top: 7px;
+}
+
+.playlist__textBox {
+  padding: 5px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}

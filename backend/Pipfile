@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+spotipy = "*"
+pandas = "*"
+flask-cors = "*"
+flask-restful = "*"
+scikit-learn = "*"
+firebase-admin = "*"
+matplotlib = "*"
+flask-firebase-admin = "*"
+gunicorn = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"

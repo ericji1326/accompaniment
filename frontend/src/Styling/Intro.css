@@ -1,0 +1,34 @@
+.overall {
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg,#C7C7BB 50%, #EFEDE7 50% );
+  vertical-align: middle;
+  position: relative;
+}
+
+.bottom {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: 30%;
+  justify-content: center;
+}
+
+.typewriter__container_main {
+  /* color: blanchedalmond; */
+  color: #444444;
+  font-family: 'Trebuchet MS';
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  background: clear;
+}
+
+

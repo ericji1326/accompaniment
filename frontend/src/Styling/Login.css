@@ -1,0 +1,63 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* background: #C7C7BB; */
+  background: linear-gradient(90deg,#E7E4E9 30% ,#D3CBC7 60%,#E7E4E9 100% );
+  vertical-align: middle;
+  position: relative;
+}
+
+.login__textBox {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.login__btn {
+  border-radius: 20;
+  background-color: "#21b6ae";
+  padding: "6px 20px";
+  font-size: "14px";
+}
+.login__google {
+  background-color: #4285f4;
+}
+.login div {
+  margin-top: 7px;
+}
+
+.bottom_button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: 10%;
+  justify-content: center;
+}
+
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.link {
+  color: rgb(0, 0, 0);
+  font-size: "14px";
+  text-transform: "lowercase";
+  font-family: "Trebuchet MS";
+  
+}
+.link:hover {
+   color: #272726
+}
+.link__text {
+  color: #FFF;
+  font-size: "14px";
+  text-transform: "lowercase";
+  font-family: "Trebuchet MS";
+  
+}
