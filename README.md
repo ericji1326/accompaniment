@@ -1,1 +1,3 @@
 # accompaniment
+
+![](accompaniment-demo.gif)
