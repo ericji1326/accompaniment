@@ -1,4 +1,4 @@
-# accompaniment
+# Accompaniment - A Friend Finder Application
 
 ![](accompaniment-demo.gif)
 
