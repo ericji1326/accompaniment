@@ -84,7 +84,7 @@ class find_match(Resource):
         playlists = [playlist1, playlist2, playlist3]
         
         #authentication to access general spotify data
-        client_credentials_manager = SpotifyClientCredentials(client_id='a39214227e8049a49e0ba295b423e393', client_secret='821022a2a44845878b7c70fc1ad3dc84')
+        client_credentials_manager = SpotifyClientCredentials(''' HIDDEN''')
         sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
 
         #obtain a 2D numpy array representing all 3 playlists (num playlists x num ftrs)
