@@ -94,16 +94,7 @@ class find_match(Resource):
         #firebase credentials, only initalize once
         if not firebase_admin._apps:
             cred = credentials.Certificate({
-            "type": "service_account",
-            "project_id": "sounds-like-love",
-            "private_key_id": "a96451b86e3d91bc248910d9efeda5c5b9ad85ac",
-            "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDOmZ1CQ2IllzYk\npkbCXnKZVpWf1X1EeRWRgsYmjC0m8h7x/h9LQUSHt88Oi9nl+Exx93I1vtYKUHRS\nfzQqv8FFK0EjdorQgTcCuswkpR/56EeFKKtuxokus2/6Upa9NA3czZ+mf13DWyql\nC5D4y+fJpmGpAUiQv8CKpnJZ9tBiz9BYqDgNrVezAI2qs+Fdpp++sdp1ABp4TdTR\nORp4qEbWRH7Yejdg2lJMHGguhl9GsHzHXuvhDYttdngJf2YdGyu3o2p1Kc2LYCzR\nHI1tL850LR6/BzhTX1UXOpOTkS1vOaAlbyS9t/lPJvXhwdS4yZBBiPkZ+Tbycn/C\nK5/VnkUhAgMBAAECggEACHnfbI5IqsulHkRPH17SG03k1hmjacmA88cWe5LhMFmb\nIOkA3izHk7zcCxf8QNXaxws0nZVegS5TU2YiHQXgd0bCxaJxqAPBHsTMps06fl2D\n/6fPPrx4+NhGRhIY2prV3cL245USovbszTgoArkU4Z5In+8sS7n+O4IAK4Y3fvI+\nUz0vAxEk2TWN0nE4Q7bUsJxDjSMKNFlFuBH9o0oXUqqL5ITvpT8ZGZVnQoZSR4+B\ng4cE/dVxsXHhFuRCFmARXXWTNpexOrnXlhp1ZxMOAnOkCT1EO5ZAS6ZW5qE8ppAm\n+MzT0qs8LzwfTTfwFBGeau7wL7nPZFd5yGcpOkJBEQKBgQDua9xvHnegVHBX2dkE\nkInIwz8PMnYZGM8SJEUa/bnjijqPFGu55JOoBYhhH+9fosv1MprRx7723j7qrSzx\nwccJkW9zbwtzOKQJ8SW08W+hS+B1lhShWvJChMqU45xrcfOkpmqC/mnhevROwy8V\nWbWoUQ2vYA3lyy+qImOLkpboGQKBgQDd1SKYCxFy4PDlAWKRHUWNRTGzleNaSZMt\nR6bhcCaHNwJu3fJW6EtMKmUyyiwwnS1Jttk8sstH8tM+W1xVr5mRPBVit0rbfEOd\nxjqiu7ylRCJvhVJT3DifR8FG4mey8PA9uGbzJ0tYjUKGnq5tA0ZqwUtQU+yXVWdW\nE3gKmwGGSQKBgFx3Vol97nUu6lcX9POxPs6u8mDpeCXpmj119ZsvNg3KSUW+bL0u\nqhlq8+Z/JS4ZDDLvSl37stM5hHstaJXmSlQqpGfHdFBecjgs3yvayylqLQZNi3i8\nteIYcBzoXXzKN+zuYbamBthdAC0fw73rCenabY1Lmng5oiXAqoyx8HbZAoGBANqw\nI0qAntMBrnoUw3cLxGVgsX65ZUi8/7rDyGC2j0T9lgh2BVJn7tNHeDx50taaHOtu\ntvp/yKdFW7s9leljE6F5+hs3VzTJbF897NBBA9hpMwl+BYtmrutXcdLPoCtoG269\nO8C6HC1QFSVhidMuR1028WhfU/5c02KoDs9lwDsBAoGBAMLdYACzyiaCzr4r4rrs\nfMqvOdiB+Ngjg0lqMVWMGb2d9ftKfNDtg2miRi19KFlVNkYRjfCR12Z/8x0Fos3V\nB8DeOGtVjXQCinsShIU5noJo/O18Ia3NPMPc/coORS2xxbHVAFHcbXpBM5lgp5EN\nGf1Jd49wFzLQ0Jxs3knAHkLS\n-----END PRIVATE KEY-----\n",
-            "client_email": "firebase-adminsdk-aee5v@sounds-like-love.iam.gserviceaccount.com",
-            "client_id": "107335367364183590937",
-            "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-            "token_uri": "https://oauth2.googleapis.com/token",
-            "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-            "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-aee5v%40sounds-like-love.iam.gserviceaccount.com"
+            # HIDDEN CREDS
         })
             firebase_admin.initialize_app(cred)
         db = firestore.client()
